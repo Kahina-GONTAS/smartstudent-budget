@@ -1,0 +1,4 @@
+@tailwind base; /* Importe les styles de base de Tailwind*/
+@tailwind components; /* Importe les classes de composants Tailwind */
+@tailwind utilities;  /* Importe les classes utilitaires (flex, p-4,...) */
+/* celui là produit des milliers de classes css genre sont les styles globaux  */

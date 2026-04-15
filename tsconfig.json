@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",  // la version js généré 
+    "useDefineForClassFields": true, // utilisation de la syntaxe moderne des classes
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // les bib typeScrypt disponibles 
+    "module": "ESNext", // systeme de modules 
+    "skipLibCheck": true,  //ignore la vérification des types dans node_modules
+    "moduleResolution": "Bundler", // Résolution de modules pour les bundlers (Vite)
+    "jsx": "react-jsx", // Transforme JSX en React
+    "strict": true  // Mode strict TypeScript
+  },
+  "include": ["src"] // est le dossier à inclure 
+}
